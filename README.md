@@ -5,4 +5,12 @@ The Stanford Dogs dataset contains images of 120 breeds of dogs from around the 
 - Number of categories: 120 
 - Number of images: 20,580
 
-Images from the dataset
+![](Images/Kaggle.JPG)
+
+## Solution :
+Hey Reader,the py file of the solution can be found with the name " Stanford_dogs_py ".
+
+Starting commented section containes the pre-processing codes required to set up the google colab notebook as per requirements :
+- Installing kaggle and setting up an API 
+- Downloading the dataset zip file directly from the kaggle
+- Unziping the dataset 
