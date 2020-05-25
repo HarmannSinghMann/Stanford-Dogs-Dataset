@@ -18,7 +18,17 @@ In the py file , the commented section in the starting containes the pre-process
 My core solution is based upon the concept of [transfer learning using the Inception V3 model](https://medium.com/analytics-vidhya/transfer-learning-using-inception-v3-for-image-classification-86700411251b).
 
 ### Random Sample of images from 120 classes :
-![](Images/Dogs sample.JPG)
+![](Images/Dogs%20sample.JPG)
+
+### Argumented sample : 
+Following Data Arguments were applied -
+- Horizontal Flip
+- Random Rotation 
+- Rescaling
+- Random Height 
+- Random Width 
+
+![](Images/argumented%20sample.JPG)
 
 ### Final model consisted of the following layers :
 - Inception V3
@@ -26,7 +36,7 @@ My core solution is based upon the concept of [transfer learning using the Incep
 - Dropout 
 - Dense( Final output layer ) 
 
-The paramters used were derived by various combinations of trial and error over the days. 
+The parameters used were derived by various combinations of trial and error over the days. 
 
 ### Training Vs Validation ( Accuracy and Loss ) 
 ![](Images/graph.JPG)
